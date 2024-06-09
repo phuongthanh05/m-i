@@ -1,0 +1,28 @@
+{
+  "sanPham": [
+    {
+      "ten": "san pham so 1",
+      "img": "image/s1.jpg",
+      "soLuong": 50,
+      "id": "e689"
+    },
+    {
+      "ten": "san pham so 2",
+      "img": "image/s2.jpg",
+      "soLuong": 50,
+      "id": "e9db"
+    },
+    {
+      "ten": "san pham so 3",
+      "img": "image/s4.jpg",
+      "soLuong": 50,
+      "id": "2368"
+    },
+    {
+      "ten": "san pham so 5",
+      "img": "image/s4.jpg",
+      "soLuong": 50,
+      "id": "139e"
+    }
+  ]
+}

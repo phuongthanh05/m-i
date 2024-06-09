@@ -1,0 +1,1 @@
+run server: json-server --watch data.json 

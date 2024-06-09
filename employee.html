@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="adminStyle.css" rel="stylesheet" />
+  <link href="employeeStyle.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="employee.js"></script>
+</head>
+<body>
+  <div id="header" class="row">
+    <span>Nhân viên</span>
+    <div style="flex: 1;"></div>
+    <span>Admin</span>
+    <img src="image/hacker.png" alt="" id="avatar" />
+  </div>
+  <div id="list"></div>
+  <div id="popup">
+    <div class="background">
+      <div class="field-name">Ảnh demo</div>
+      <input type="text" id="url"/>
+      <div class="field-name">Tên user</div>
+      <input type="text" id="name" />
+      <br />
+      <button 
+        class="btn update"
+        onclick="">
+        Update
+      </button>
+    </div>
+  </div>
+
+  <button id="add" onclick="addUser()">+</button>
+
+</body>
+</html>

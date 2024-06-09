@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  background: gray;
+  font-size: 18px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+#menu {
+  background: #111729;
+  width: 240px;
+  color: #f3e7d0;
+  padding: 10px 4px ;
+}
+
+#logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.menu-item {
+  padding: 13px 8px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: #2e3c69;
+}
+
+.icon {
+  width: 30px;
+  margin-right: 9px;
+}
+
+#content {
+  flex: 1;
+}
+
+#avatar {
+  width: 42px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid #b7b1b1;
+  margin-left: 4px;
+}
+
+#header {
+  font-size: 22px;
+  color: wheat;
+  padding: 4px 8px;
+  background: #3f3f3f;
+}
+
+.product {
+  border-bottom: 1px solid wheat;
+  color: white;
+  font-size: 22px;
+}
+.product-img {
+  width: 65px;
+  border-radius: 5px;
+  margin: 4px 8px;
+}
+
+.number {
+  margin-left: auto;
+}
+
+.count {
+  color: red;
+  margin-right: 20px;
+}
+
+button {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 6px;
+  border: none;
+  margin: 4px;
+}
+
+.line {
+  border-bottom: 1px solid wheat;
+}
+
+iframe {
+  height: 100vh;
+  border: none;
+}
